@@ -1,10 +1,10 @@
 {
   "functions": {
-    "bpms/*.php": {
+    "api/bpms/*.php": {
       "runtime": "vercel-php@0.7.1"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/bpms/index.php" }
+    { "src": "/(.*)", "dest": "/api/bpms/index.php" }
   ]
 }
